@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D7CCC8"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ToolBarStyle"
+        app:popupTheme="@style/ToolBarStyle" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- SIZE AND MESSAGE CARD -->
+            <androidx.cardview.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                card_view:cardCornerRadius="6dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <!-- HEADER IMAGE -->
+                    <ImageView
+                        android:id="@+id/image_view_size_message"
+                        android:layout_width="match_parent"
+                        android:layout_height="56dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/cake_size_message" />
+
+                    <!-- HEADER TEXT -->
+                    <TextView
+                        style="@style/BuildCakeHeaderTextViewStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_alignTop="@id/image_view_size_message"
+                        android:layout_alignBottom="@id/image_view_size_message"
+                        android:text="@string/cake_size_and_message" />
+
+                    <!-- CARD CONTENTS -->
+                    <TextView
+                        android:id="@+id/text_view_price"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/image_view_size_message"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginRight="16dp"
+                        android:layout_marginBottom="8dp"
+                        android:text="@string/cake_pricing"
+                        android:textColor="#212121"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/text_view_display_price"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/image_view_size_message"
+                        android:layout_marginTop="16dp"
+                        android:layout_toRightOf="@id/text_view_price"
+                        android:text="@string/cake_size_pricing"
+                        android:textSize="16sp" />
+
+                    <RadioGroup
+                        android:id="@+id/radio_group_cake_size"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/text_view_price"
+                        android:layout_marginLeft="16dp"
+
+                        android:layout_marginRight="16dp"
+                        android:orientation="horizontal"
+                        android:textColor="#212121">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/cake_size"
+                            android:textColor="#212121"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <RadioButton
+                            android:id="@+id/radio_small_size"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:checked="true"
+                            android:text="@string/small" />
+
+                        <RadioButton
+                            android:id="@+id/radio_medium_size"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/medium" />
+
+                        <RadioButton
+                            android:id="@+id/radio_large_size"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/large" />
+                    </RadioGroup>
+
+                    <EditText
+                        android:id="@+id/edit_text_message"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/radio_group_cake_size"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="16dp"
+                        android:layout_marginBottom="16dp"
+                        android:hint="@string/message_on_cake"
+                        android:inputType="textMultiLine"
+                        android:maxLength="50"
+                        android:textSize="16sp" />
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <!-- FLAVOURS CARD -->
+            <androidx.cardview.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="8dp"
+                card_view:cardCornerRadius="6dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <!-- HEADER IMAGE -->
+                    <ImageView
+                        android:id="@+id/image_view_flavours"
+                        android:layout_width="match_parent"
+                        android:layout_height="56dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/cake_flavours" />
+
+                    <!-- HEADER TEXT -->
+                    <TextView
+                        style="@style/BuildCakeHeaderTextViewStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_alignTop="@id/image_view_flavours"
+                        android:layout_alignBottom="@id/image_view_flavours"
+                        android:text="Flavours" />
+
+                    <!-- CARD CONTENTS -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/image_view_flavours"
+                        android:layout_margin="16dp"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <!-- ICING -->
+                            <TextView
+                                android:id="@+id/text_view_icing"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="16dp"
+                                android:text="@string/icing"
+                                android:textColor="#212121"
+                                android:textSize="16sp"
+                                android:textStyle="bold" />
+
+                            <!-- BISCUIT -->
+                            <TextView
+                                android:id="@+id/text_view_biscuit"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="16dp"
+                                android:text="@string/biscuit"
+                                android:textColor="#212121"
+                                android:textSize="16sp"
+                                android:textStyle="bold" />
+
+                            <!-- FILLING -->
+                            <TextView
+                                android:id="@+id/text_view_filling"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/filling"
+                                android:textColor="#212121"
+                                android:textSize="16sp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:orientation="vertical">
+
+                            <!-- ICING -->
+                            <Spinner
+                                android:id="@+id/spinner_icing"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="14dp"
+                                android:drawSelectorOnTop="true"
+                                android:entries="@array/icingSpinnerItems" />
+
+                            <!-- BISCUIT -->
+                            <Spinner
+                                android:id="@+id/spinner_biscuit"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="14dp"
+                                android:drawSelectorOnTop="true"
+                                android:entries="@array/biscuitSpinnerItems" />
+
+                            <!-- FILLING -->
+                            <Spinner
+                                android:id="@+id/spinner_filling"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="4dp"
+                                android:drawSelectorOnTop="true"
+                                android:entries="@array/fillingSpinnerItems" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <!-- FLAVOURS CARD -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="8dp"
+                app:cardCornerRadius="6dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp">
+
+                    <!-- HEADER IMAGE -->
+                    <ImageView
+                        android:id="@+id/image_view_toppings"
+                        android:layout_width="match_parent"
+                        android:layout_height="56dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/cake_toppings" />
+
+                    <!-- HEADER TEXT -->
+                    <TextView
+                        style="@style/BuildCakeHeaderTextViewStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_alignTop="@id/image_view_toppings"
+                        android:layout_alignBottom="@id/image_view_toppings"
+                        android:text="@string/toppings" />
+
+                    <!-- CARD CONTENTS -->
+                    <TextView
+                        android:id="@+id/text_view_toppings_price"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/image_view_toppings"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginRight="16dp"
+                        android:layout_marginBottom="8dp"
+                        android:text="@string/cake_pricing"
+                        android:textColor="#212121"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/text_view_toppings_display_price"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/text_view_toppings_price"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="16dp"
+                        android:text="@string/toppings_cake_pricing"
+                        android:textSize="16sp" />
+
+                    <CheckBox
+                        android:id="@+id/checkbox_strawberries"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/text_view_toppings_display_price"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginRight="6dp"
+                        android:layout_marginBottom="8dp"
+                        android:text="@string/strawberries"
+                        android:textSize="16sp" />
+
+                    <CheckBox
+                        android:id="@+id/checkbox_cherries"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/text_view_toppings_display_price"
+                        android:layout_marginTop="9dp"
+                        android:layout_marginRight="6dp"
+                        android:layout_toRightOf="@id/checkbox_strawberries"
+                        android:text="@string/cherries"
+                        android:textSize="16sp" />
+
+                    <CheckBox
+                        android:id="@+id/checkbox_blueberries"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/text_view_toppings_display_price"
+                        android:layout_marginTop="8dp"
+                        android:layout_toRightOf="@id/checkbox_cherries"
+                        android:text="@string/blueberries"
+                        android:textSize="16sp" />
+
+                    <CheckBox
+                        android:id="@+id/checkbox_sprinkles"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/checkbox_strawberries"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="6dp"
+                        android:text="@string/rainbow_sprinkles"
+                        android:textSize="16sp" />
+
+                    <CheckBox
+                        android:id="@+id/checkbox_sugar_flowers"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_toRightOf="@id/checkbox_sprinkles"
+                        android:text="@string/sugar_flowers"
+                        android:textSize="16sp" />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <!-- FLAVOURS CARD -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                app:cardCornerRadius="6dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <!-- HEADER IMAGE -->
+                    <ImageView
+                        android:id="@+id/image_view_info"
+                        android:layout_width="match_parent"
+                        android:layout_height="56dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/cake_info" />
+
+                    <!-- HEADER TEXT -->
+                    <TextView
+                        style="@style/BuildCakeHeaderTextViewStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_alignTop="@id/image_view_info"
+                        android:layout_alignBottom="@id/image_view_info"
+                        android:text="@string/additional_info" />
+
+                    <!-- CARD CONTENTS -->
+                    <LinearLayout
+                        android:id="@+id/checkboxes_allergies"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_below="@id/image_view_info"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginRight="16dp"
+                        android:orientation="horizontal">
+
+                        <CheckBox
+                            android:id="@+id/checkbox_dairy"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="6dp"
+                            android:text="@string/dairy_free"
+                            android:textSize="16sp" />
+
+                        <CheckBox
+                            android:id="@+id/checkbox_gluten"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="6dp"
+                            android:text="@string/gluten_free"
+                            android:textSize="16sp" />
+
+                        <CheckBox
+                            android:id="@+id/checkbox_eggs"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/no_eggs"
+                            android:textSize="16sp" />
+                    </LinearLayout>
+
+                    <EditText
+                        android:id="@+id/edit_text_info"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/checkboxes_allergies"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="16dp"
+                        android:layout_marginBottom="16dp"
+                        android:hint="@string/other_additional_info"
+                        android:inputType="textMultiLine"
+                        android:textSize="16sp" />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <Button
+                android:id="@+id/button_confirm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="8dp"
+                android:background="#FF4081"
+                android:text="@string/confirm"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

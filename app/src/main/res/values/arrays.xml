@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="biscuitSpinnerItems">
+        <item>Brown (Cocoa)</item>
+        <item>Yellow (Vanilla)</item>
+        <item>Pink (Strawberry)</item>
+        <item>Red (Red Velvet)</item>
+    </string-array>
+    <string-array name="fillingSpinnerItems">
+        <item>Strawberry Fudge</item>
+        <item>Chocolate Cream</item>
+        <item>Vanilla Pudding</item>
+        <item>Pistachio Cream</item>
+        <item>Coffee Cream</item>
+    </string-array>
+    <string-array name="icingSpinnerItems">
+        <item>Whipped Cream</item>
+        <item>Buttercream</item>
+        <item>Fondant</item>
+    </string-array>
+</resources>

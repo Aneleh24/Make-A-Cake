@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tool="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/image_view_cake"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="16dp"
+        android:src="@drawable/cake_icon" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/image_view_cake">
+
+        <!-- CAKE PRICE -->
+        <TextView
+            android:id="@+id/price_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/item_price"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_view_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@id/price_label"
+            android:textSize="16sp"
+            tool:text="250 kn" />
+
+        <!-- CAKE SIZE -->
+        <TextView
+            android:id="@+id/size_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/price_label"
+            android:text="@string/item_size"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_view_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_view_price"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@id/size_label"
+            android:textSize="16sp"
+            tool:text="Small" />
+
+        <!-- CAKE ICING -->
+        <TextView
+            android:id="@+id/icing_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/size_label"
+            android:text="@string/item_icing"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_view_icing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_view_size"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@id/icing_label"
+            android:textSize="16sp"
+            tool:text="Whipped Cream" />
+
+        <!-- CAKE BISCUIT -->
+        <TextView
+            android:id="@+id/biscuit_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/icing_label"
+            android:text="@string/item_biscuit"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_view_biscuit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/icing_label"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@id/biscuit_label"
+            android:textSize="16sp"
+            tool:text="Brown (Cocoa)" />
+
+        <!-- CAKE FILLING -->
+        <TextView
+            android:id="@+id/filling_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/biscuit_label"
+            android:text="@string/item_filling"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_view_filling"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_view_biscuit"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@id/filling_label"
+            android:textSize="16sp"
+            tool:text="Strawberry Fudge" />
+
+        <!-- CAKE TOPPINGS -->
+        <TextView
+            android:id="@+id/toppings_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/filling_label"
+            android:text="@string/item_toppings"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_view_toppings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/toppings_label"
+            android:layout_marginLeft="8dp"
+            android:textSize="16sp"
+            tool:text="Cherries, Strawberries" />
+
+        <!-- CAKE MESSAGE -->
+        <TextView
+            android:id="@+id/msg_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_view_toppings"
+            android:text="@string/item_message"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_view_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/msg_label"
+            android:layout_marginLeft="8dp"
+            android:textSize="16sp"
+            tool:text="This is fifty characters indeed, totally fifty!!!!" />
+
+        <!-- DAIRY FREE -->
+        <TextView
+            android:id="@+id/dairy_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_view_message"
+            android:text="@string/item_dairy"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_view_dairy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_view_message"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@id/dairy_label"
+            android:textSize="16sp"
+            tool:text="Yes" />
+
+        <!-- GLUTEN FREE -->
+        <TextView
+            android:id="@+id/gluten_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_view_dairy"
+            android:text="@string/item_gluten"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_view_gluten"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dairy_label"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@id/gluten_label"
+            android:textSize="16sp"
+            tool:text="Yes" />
+
+        <!-- EGG FREE -->
+        <TextView
+            android:id="@+id/egg_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_view_gluten"
+            android:text="@string/item_eggs"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_view_egg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/gluten_label"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@id/egg_label"
+            android:textSize="16sp"
+            tool:text="Yes" />
+
+        <!-- CAKE INFO -->
+        <TextView
+            android:id="@+id/info_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_view_egg"
+            android:text="@string/item_additional_info"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_view_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/info_label"
+            android:layout_marginLeft="8dp"
+            android:textSize="16sp"
+            tool:text="Nut Allergy" />
+
+    </RelativeLayout>
+</RelativeLayout>
+

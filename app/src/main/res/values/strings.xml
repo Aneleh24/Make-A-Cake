@@ -1,0 +1,111 @@
+<resources>
+    <!-- ACTIVITIES -->
+    <string name="app_name">Make-A-Cake</string>
+    <string name="activity_about_us">About Us</string>
+    <string name="activity_build_cake_name">Build Your Custom Cake</string>
+    <string name="activity_order_details">Order Details</string>
+    <string name="activity_order_summary">Order Summary</string>
+    <!-- ABOUT US -->
+    <string name="about_us">About Us</string>
+    <string name="about_us_text_one">Make-A-Cake ltd. brings you the best in cake baking with a fun twist. Our app lets you create your own custom cakes and have them delivered to your doorstep! Ships anywhere within our Solar System! </string>
+    <string name="about_us_text_two">This way you can order a perfect cake for any occasion; birthday parties and other celebrations, corporate events and promotions, or simply because you\'re craving a cake for the weekend. </string>
+    <string name="about_us_text_three">At Make-A-Cake ltd., everything is made from scratch in house and with locally sourced ingredients when possible. Every cake is made fresh daily on the premises using the finest ingredients, including fresh butter and cream from quality local producers, pure whole vanilla beans, Belgian chocolate, and fresh seasonal produce from local farms.</string>
+    <string name="about_us_text_four">The Make-A-Cake shop is not a retail bakery. We are by order only.</string>
+    <string name="about_us_text_five">All of us at Make-A-Cake thank you for supporting an independent, locally owned business!  We hope to hear from you soon!</string>
+    <!-- FAQ -->
+    <string name="faq">FAQ</string>
+    <string name="frequently_asked_questions">Frequently Asked Questions</string>
+    <string name="faq_question_1">Q: How do I customize my cake order?</string>
+    <string name="faq_answer_1">A:From the Main Menu of the Make-A-Cake app, tap the \"Build a Cake\" button, and select the on-screen options that suit your needs for your cake order. When you\'re done designing your cake, tap the \"Confirm\" button which will take you to your Order Details. Here, you can fill in your delivery information, review and/or delete your order. If you want to order more than one cake, tap the \"Add Another Cake\" button. When you\'re satisfied with your order, tap the \"Confirm\" button and your order will be sent to us.</string>
+    <string name="faq_question_2">Q: What are the serving sizes for your products?</string>
+    <string name="faq_answer_2">A: Small cake: 25 cm in diameter, Medium cake: 30 cm in diameter, Large cake: 35 cm in diameter.</string>
+    <string name="faq_question_3">Q: How much does a custom cake cost and how long does it take to make it?</string>
+    <string name="faq_answer_3">A: It\'s tough to provide a general answer for that question. Cake prices depend on their size and the detail (toppings, inscriptions) involved. As the size and detail requested goes up, so do the number of hours involved in making the cake(s).</string>
+    <string name="faq_question_4">Q: What ingredients do you use?</string>
+    <string name="faq_answer_4">A: Make-A-Cake only uses the best ingredients – we bake everything from scratch, don’t use any preservatives, use real vanilla and premium chocolate. We also made sure that the fruits, eggs, and milk we use for our cakes comes from trusted local farms.</string>
+    <string name="faq_question_5">Q: How long will my cake last?</string>
+    <string name="faq_answer_5">A: We recommend eating your cake the day you purchase it. But if you need to store it in the refrigerator, it should stay moist for up to 3 days. And frozen cakes can be saved for up to a year!</string>
+    <string name="faq_question_6">Q: I have food allergies or I don\'t consume eggs and/or dairy. Does Make-A-Cake make anything wheat/dairy/nut free?</string>
+    <string name="faq_answer_6">A: Yes! We made sure to cover the needs of any cake lover that wishes to order from us. We can use substitutes for many products we use for cake baking. When you\'re designing your custom cake in our app, make sure to select the options that will let us know about your food allergies or food preferences. However, we must tell you that we do not bake in an allergen-free environment. While we do have select products that do not contain wheat or nuts, all of our products are baked in an environment where wheat, milk, peanuts, tree nuts, eggs and soy may be present in high volumes. Due to the presence of these allergens at our baking facility, we are obliged to inform you that there might be a chance of the cakes still containing traces of eggs, milk and nuts even if we used subtitute ingredients.</string>
+    <string name="faq_question_7">Q: Do you do same-day shipping?</string>
+    <string name="faq_answer_7">A: At Make-A-Cake, everything is made fresh from scratch using the finest ingredients. Since we bake to order, we cannot ship same day. All orders placed before 2:00 PM will be processed the next day to ship the following business day.</string>
+    <string name="faq_question_8">Q: How far in advance should I place my order?</string>
+    <string name="faq_answer_8">A: We recommend that you place your order at least 48 hours in advance. While we can usually accommodate most orders, the more notice you give us the more likely we will be able to fulfill your order.</string>
+    <string name="faq_question_9">Q: How can I cancel my order?</string>
+    <string name="faq_answer_9">A: Orders must be cancelled more than 24 hours of the preferred delivery date and before 2:00 PM on that day. Please call 123–4567–890 so that we may assist you with your request.</string>
+    <string name="faq_question_10">Q: What happens if I’m not home to receive my delivery?</string>
+    <string name="faq_answer_10">A: While Make-A-Cake does not require a signature for your delivery, we can only guarantee the quality of our product if it is received by the customer at the time of delivery. Our delivery driver will only leave the package at a recipient’s door, or other secure location, if the driver believes it is safe and reasonable to do so. For this reason, it is also necessary for customers to notify a gift recipient of their sweet surprise before the date of delivery.</string>
+    <string name="faq_question_11">Q: What if I am not satisfied with my order?</string>
+    <string name="faq_answer_11">A: If there is a problem with an order you received, please call 123–4567–890 or email us at makeacake@email.com. Refunds may not be given for shipping delays caused by inclement weather, package refusal, and/or incomplete or incorrect delivery address.</string>
+    <!-- BUILD A CAKE -->
+    <string name="cake_size_and_message">Cake Size And Message</string>
+    <string name="cake_pricing">Pricing:</string>
+    <string name="cake_size_pricing">S: 100kn | M: 150kn | L: 200kn</string>
+    <string name="cake_size">Cake Size:</string>
+    <string name="small">Small</string>
+    <string name="medium">Medium</string>
+    <string name="large">Large</string>
+    <string name="message_on_cake">Message On Cake (max. 50 characters)</string>
+    <string name="flavours">Flavours</string>
+    <string name="icing">• Icing: </string>
+    <string name="biscuit">• Biscuit: </string>
+    <string name="filling">• Filling: </string>
+    <string name="toppings">Toppings</string>
+    <string name="toppings_cake_pricing">Fruits: 10kn | Sprinkles: 5kn | Flowers: 15kn</string>
+    <string name="strawberries">Strawberries</string>
+    <string name="cherries">Cherries</string>
+    <string name="blueberries">Blueberries</string>
+    <string name="rainbow_sprinkles">Rainbow Sprinkles</string>
+    <string name="sugar_flowers">Sugar Flowers</string>
+    <string name="additional_info">Additional Info</string>
+    <string name="dairy_free">Dairy Free</string>
+    <string name="gluten_free">Gluten Free</string>
+    <string name="no_eggs">No Eggs</string>
+    <string name="other_additional_info">Other Additional Information (Allergies, etc.)</string>
+    <string name="confirm">Confirm</string>
+    <!-- ORDER SUMMARY -->
+    <string name="order_summary">Order Summary</string>
+    <string name="number_of_cakes">Number of Cakes Ordered: </string>
+    <string name="view_detail_order">View Detailed Order Summary</string>
+    <string name="add_another_cake">Add Another Cake</string>
+    <string name="shipping_details">Shipping Details</string>
+    <string name="name_surname">Name and Surname</string>
+    <string name="address">Address</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="place_order">Place Order</string>
+    <!-- ORDER DETAILS -->
+    <string name="total">Total: </string>
+    <string name="kn"> kn</string>
+    <string name="tap_and_hold_to_delete">Tap and hold to delete a cake from the list.</string>
+    <string name="enter_name_and_surname">Please enter name and surname.</string>
+    <string name="enter_address">Please enter address.</string>
+    <string name="enter_phone_number">Please enter phone number</string>
+    <string name="at_least_one_cake">You must order at least one cake.</string>
+    <!-- DELETE CAKE ALERT -->
+    <string name="delete_cake">Delete Cake</string>
+    <string name="are_you_sure_delete">"Are you sure you want to delete the selected cake?</string>
+    <string name="cake_removed">Cake Removed</string>
+    <!-- EXTRA -->
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="name">Name: </string>
+    <string name="cake_order_for">Cake Order For: </string>
+    <string name="price">Price: </string>
+    <string name="size">Size: </string>
+    <string name="message">Message: </string>
+    <string name="icing2">Icing: </string>
+    <string name="biscuit2">Biscuit: </string>
+    <string name="filling2">Filling: </string>
+    <string name="build_a_cake">Build A Cake</string>
+    <string name="item_price">• Price:</string>
+    <string name="item_size">• Cake Size:</string>
+    <string name="item_icing">• Icing:</string>
+    <string name="item_biscuit">• Biscuit:</string>
+    <string name="item_filling">• Filling:</string>
+    <string name="item_toppings">• Toppings:</string>
+    <string name="item_message">• Message:</string>
+    <string name="item_dairy">• Dairy Free:</string>
+    <string name="item_gluten">• Gluten Free:</string>
+    <string name="item_eggs">• No Eggs:</string>
+    <string name="item_additional_info">• Additional Info:</string>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="biscuitSpinnerItems">
+        <item>Smeđi (kakao)</item>
+        <item>Žuti (vanilija)</item>
+        <item>Rozi (jagoda)</item>
+        <item>Crveni (Crveni baršun)</item>
+    </string-array>
+    <string-array name="fillingSpinnerItems">
+        <item>Krema od jagode</item>
+        <item>Krema od čokolade</item>
+        <item>Puding od vanilije</item>
+        <item>Krema od pistacija</item>
+        <item>Krema od kave</item>
+    </string-array>
+    <string-array name="icingSpinnerItems">
+        <item>Šlag</item>
+        <item>Krema od maslaca</item>
+        <item>Fondant</item>
+    </string-array>
+</resources>

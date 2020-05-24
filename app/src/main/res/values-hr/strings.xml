@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ACTIVITIES -->
+    <string name="app_name">Make-A-Cake</string>
+    <string name="activity_about_us">O Nama</string>
+    <string name="activity_build_cake_name">Osmisli svoju tortu</string>
+    <string name="activity_order_details">Detalji Narudžbe</string>
+    <string name="activity_order_summary">Detalji Narudžbe</string>
+    <!-- ABOUT US -->
+    <string name="about_us_text_one">Make-A-Cake d.o.o. nudi Vam najbolje u pečenju kolača na zabavan način! Naša aplikacija Vam pruža mogućnost da osmislite vlastite torte i naručite dostavu na svoj kućni prag! Dostavljamo po cijeloj galaksiji! </string>
+    <string name="about_us_text_two">Možete naručiti tortu za sva događanja; rođendanske proslave i ostala slavlja, poslovna događanja i promocije, ili samo zato što želite jesti nešto slatko preko vikenda. </string>
+    <string name="about_us_text_three">U Make-A-Cake d.o.o., torte se rade od početka do kraja koristeći lokalni uzgojene proizvode kad god je to moguće. Svakodnevno izrađujemo svježe torte od najkvalitetnijih sastojaka, uključujući svježi maslac i vrhnje od provjerenih lokalnih proizvođača, kvalitetne mahune vanilije, belgijsku čokoladu i svježe voće ubrano na lokalnim farmama. </string>
+    <string name="about_us_text_four">Make-A-Cake trgovina nije samoposlužna pekara, radimo samo putem narudžbi. </string>
+    <string name="about_us_text_five">Make-A-Cake tim Vam zahvaljuje na podržavanju neovisnog, lokalnog poduzeća! Nadamo se skoroj suradnji! </string>
+    <!-- FAQ -->
+    <string name="faq_question_1">P: Kako mogu naručiti tortu?</string>
+    <string name="faq_answer_1">O: Sa glavnog izbornika aplikacije odaberite opciju Osmisli Tortu, zatim pratite upute i odaberite sastojke i okuse po Vašoj želji. Kada završite sa osmišljavanjem svoje torte, odaberite opciju Potvrdi koja će Vas odvesti na detalje Vaše narudžbe. Ovdje možete popuniti informacije za dostavu, pregledati i/ili brisati svoju narudžbu. Ako želite naručiti još jednu tortu, odaberite opciju Dodaj Novu Tortu. Kada ste zadovoljni svojom narudžbom, odaberite opciju Potvrdi i Vaša narudžba će biti poslana nama. </string>
+    <string name="faq_question_2">P: Koje su ponuđene veličine torti?</string>
+    <string name="faq_answer_2">O: Mala torta: 25 cm promjer, Srednja torta: 30 cm promjer, Velika torta: 35 cm promjer.</string>
+    <string name="faq_question_3">P: Kolika je cijena torti i koliko vremena je potrebno za njihovu izradu?</string>
+    <string name="faq_answer_3">O: Teško je odgovoriti na ovo pitanje. Cijene torti ovise o njihovoj veličini i ukrasima. Što je torta veća i što je više ukrasa, potrebno je i više sati za izradu torte.</string>
+    <string name="faq_question_4">P: Kakve sastojke koristite?</string>
+    <string name="faq_answer_4">O: Make-A-Cake koristi samo najbolje sastojke – torte se izrađuju i peku u našoj poslovnici, ne koristimo konzervanse, koristimo pravu vaniliju i kvalitetnu čokoladu. Također se brinemo da svo voće, jaja i mlijeko korišteno u našim receptima dolazi od pouzdanih lokalnih farmi.</string>
+    <string name="faq_question_5">P: Koliki je rok valjanosti torte?</string>
+    <string name="faq_answer_5">O: Preporučamo da tortu pojedete na dan na koji Vam je dostavljena, ali ju je moguće držati u hladnjaku do tri naredna dana. Ako se torta stavi u zamrzivač, zamrznuta torta se može čuvati i do godinu dana.</string>
+    <string name="faq_question_6">P: Imam alergiju na određenu hranu ili ne konzumiram jaja i/ili mliječne proizvode. Izrađujete li prilagođene torte?</string>
+    <string name="faq_answer_6">O: Da! Pobrinuli smo se da pokrijemo potrebe bilo kojeg ljubitelja slastica koji odluči naručiti tortu kod nas. Možemo koristiti zamjenske proizvode kod izrade torte. Tijekom slaganja svoje narudžbe pobrinite se da izaberete opcije koje će nas obavijestiti o Vašim alergijama ili preferencijama. No bez obzira na to dužnost nam je obavijestiti Vas da torte ne izrađujemo u bezalergenskom okruženju. Iako imamo zamjenske proizvode bez alergena, torte se izrađuju u okruženju gdje postoji šansa da u njima ima tragova jaja, mlijeka, soje, orašastih plodova i drugih alergena.</string>
+    <string name="faq_question_7">P: Dostavljate li isti dan?</string>
+    <string name="faq_answer_7">O: Kolači se proizvode po narudžbi na da kada pristigne narudžba, radi čega nije moguće torte dostaviti isti dan. Sva narudžbe zaprimljene do 14:00 bit će obrađene naredni dan i poslane tijekom idućeg radnog dana.</string>
+    <string name="faq_question_8">P: Koliko dana unaprijed je potrebno poslati narudžbu?</string>
+    <string name="faq_answer_8">O: Preporučamo da narudžbu pošaljete najkasnije 48 sati ranije. Iako se trudimo sve narudžbe obraditi i ispuniti što je prije moguće, što nam ranije pošaljete narudžbu to je veća šansa da je uspješno ispunimo.</string>
+    <string name="faq_question_9">P: Kako mogu otkazati narudžbu?</string>
+    <string name="faq_answer_9">O: Narudžbe se moraju otkazati najkasnije 24 sata prije datuma slanja narudžbe i prije 14:00 sati na taj dan. Molimo nazovite na broj 123–4567–890 kako bismo Vam pomogli s Vašim zahtjevom.</string>
+    <string name="faq_question_10">P: Što ako nisam kod kuće da prihvatim isporuku?</string>
+    <string name="faq_answer_10">O: Iako ne tražimo Vaš potpis za preuzimanje isporuke, kvalitetu svojih proizvoda jedino možemo garantirati ako korisnik preuzme isporuku na vrijeme. Naš dostavljač će ostaviti pošiljku ispred vrata ili na dogovorenom sigurnom mjestu samo ako on odluči da je to moguće i sigurno učiniti. Iz ovog razloga, ako naručujete tortu nekome na poklon, bilo bi poželjno obavijestiti primatelja kako bi mogao preuzeti svoj slatki poklon.</string>
+    <string name="faq_question_11">P: Što ako nisam zadovoljan svojom narudžbom?</string>
+    <string name="faq_answer_11">O: Ako imate primjedbi u vezi svoje narudžbe, molimo nazovite broj 123–4567–890 ili pošaljite poruku na email makeacake@mail.com. Ne vraćamo novac u slučaju kašnjenja dostave radi nepovoljnog vremena, odbijanja preuzimanja pošiljke, i/ili nepotpune ili netočne adrese dostave.</string>
+    <!-- MAIN ACTIVITY -->
+
+    <!-- BUILD A CAKE -->
+    <string name="cake_size_and_message">Veličina Torte i Poruka</string>
+    <string name="cake_pricing">Cjenik:</string>
+    <string name="cake_size_pricing">M: 100kn | S: 150kn | V: 200kn</string>
+    <string name="cake_size">Veličina torte:</string>
+    <string name="small">Mala</string>
+    <string name="medium">Srednja</string>
+    <string name="large">Velika</string>
+    <string name="message_on_cake">Poruka na torti (maks. 50 znakova)</string>
+    <string name="flavours">Okusi</string>
+    <string name="icing">• Glazura:</string>
+    <string name="biscuit">• Biskvit:</string>
+    <string name="filling">• Krema:</string>
+    <string name="toppings">Ukrasi</string>
+    <string name="strawberries">Jagode</string>
+    <string name="cherries">Višnje</string>
+    <string name="blueberries">Borovnice</string>
+    <string name="rainbow_sprinkles">Šareni posip</string>
+    <string name="sugar_flowers">Šećerno cvijeće</string>
+    <string name="additional_info">Dodatne informacije</string>
+    <string name="dairy_free">Bez mlijeka</string>
+    <string name="gluten_free">Bez glutena</string>
+    <string name="no_eggs">Bez jaja</string>
+    <string name="other_additional_info">Ostale informacije (alergije, itd.)</string>
+    <string name="confirm">Potvrdi</string>
+    <!-- ORDER SUMMARY -->
+    <string name="order_summary">Detalji narudžbe</string>
+    <string name="number_of_cakes">Broj naručenih torti: </string>
+    <string name="view_detail_order">Detaljni pregled narudžbe</string>
+    <string name="add_another_cake">Dodaj novu tortu</string>
+    <string name="shipping_details">Detalji dostave</string>
+    <string name="name_surname">Ime i prezime</string>
+    <string name="address">Adresa</string>
+    <string name="phone_number">Broj telefona</string>
+    <string name="place_order">Pošalji narudžbu</string>
+    <!-- ORDER DETAILS -->
+    <string name="total">Ukupno: </string>
+    <string name="kn"> kn</string>
+    <string name="tap_and_hold_to_delete">Dodirni i zadrži za brisanje torte s popisa.</string>
+    <string name="about_us">O Nama</string>
+    <string name="faq">Česti Upiti</string>
+    <string name="frequently_asked_questions">Česti upiti</string>
+    <string name="toppings_cake_pricing">Voće: 10kn | Posip: 5 kn | Cvijeće: 15kn</string>
+    <string name="enter_name_and_surname">Molimo unesite ime i prezime.</string>
+    <string name="enter_address">Molimo unsite adresu.</string>
+    <string name="enter_phone_number">Molimo unesite broj telefona.</string>
+    <string name="at_least_one_cake">Molimo odaberite barem jednu tortu.</string>
+    <string name="delete_cake">Brisanje torte</string>
+    <string name="are_you_sure_delete">Jeste li sigurni da želite izbrisati odabranu tortu?</string>
+    <string name="cake_removed">Torta je izbrisana.</string>
+    <string name="yes">Da</string>
+    <string name="no">Ne</string>
+    <string name="name">Ime: </string>
+    <string name="cake_order_for">"Narudžba torte za: "</string>
+    <string name="price">Cijena: </string>
+    <string name="size">Veličina: </string>
+    <string name="message">Natpis: </string>
+    <string name="icing2">Glazura: </string>
+    <string name="biscuit2">Biskvit: </string>
+    <string name="filling2">Krema: </string>
+    <string name="build_a_cake">Naruči Tortu</string>
+    <!-- ITEM DETAILS -->
+    <string name="item_price">• Cijena:</string>
+    <string name="item_size">• Veličina torte:</string>
+    <string name="item_icing">• Glazura:</string>
+    <string name="item_biscuit">• Biskvit:</string>
+    <string name="item_filling">• Krema:</string>
+    <string name="item_toppings">• Ukrasi:</string>
+    <string name="item_message">• Natpis:</string>
+    <string name="item_dairy">• Bez mlijeka:</string>
+    <string name="item_gluten">• Bez glutena:</string>
+    <string name="item_eggs">• Bez jaja:</string>
+    <string name="item_additional_info">• Dodatne informacije:</string>
+</resources>
